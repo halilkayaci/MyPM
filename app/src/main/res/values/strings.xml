@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MyPM</string>
+
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>7
+    <string name="rememberMe">Beni Hatırla</string>
+    <string name="forgotPass">Şifremi Unuttum</string>
+    <string name="login">Giriş Yap</string>
+    <string name="create"><u>Hesap Oluştur</u></string>
+    <string name="repassword">Şifre (Tekrar)</string>
+    <string name="email">Eposta</string>
+    <string name="register">Kayıt Ol</string>
+
+    <string name="project_name">Proje Adı</string>
+    <string name="more">Daha Fazlası</string>
+    <string name="infos">Hesap Bilgileri</string>
+
+    <string name="action_delete">Projeyi Sil</string>
+    <string name="action_open">Projeyi Aç</string>
+    <string name="action_edit">Projeyi Düzenle</string>
+    <string name="action_logout">Çıkış</string>
+    <string name="action_back">Geri</string>
+    <string name="action_save">Projeyi Kaydet</string>
+    <string name="action_search">Ara</string>
+
+    <string name="infoUser">Kullanıcı Adı : </string>
+    <string name="infoProjects">Proje Sayısı : </string>
+
+    <string name="step1">Gereksinimlerin Tanımlanması, Planlama</string>
+    <string name="step2">Analiz</string>
+    <string name="step3">Sistem ve Yazılım Tasarımı</string>
+    <string name="step4">Projeyi Gerçekleştirme</string>
+    <string name="step5">Modül Testleri</string>
+    <string name="step6">Sistem Testi</string>
+
+    <string name="info"> * Proje adımlarını
+        işaretledikten/işareti kaldırdıktan sonra kaydet butonuna
+        basarak projedeki ilerlemenizi kaydetmeyi
+        unutmayın !</string>
+
+</resources>

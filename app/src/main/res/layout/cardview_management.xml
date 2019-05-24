@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardDesign"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    cardview:cardCornerRadius="10dp"
+    cardview:cardElevation="10dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_project"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@color/accent"
+            android:contentDescription="@string/project_name"
+            android:scaleType="fitCenter"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toTopOf="parent"
+            cardview:srcCompat="@drawable/project" />
+
+        <TextView
+            android:id="@+id/tv_projectName"
+            android:layout_width="115dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/project_name"
+            android:textColor="@color/primary_text"
+            android:textSize="15sp"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.0"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/img_project" />
+
+        <ImageView
+            android:id="@+id/img_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="14dp"
+            android:contentDescription="@string/more"
+            cardview:layout_constraintBottom_toBottomOf="parent"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintTop_toBottomOf="@+id/img_project"
+            cardview:layout_constraintVertical_bias="0.6"
+            cardview:srcCompat="@drawable/ic_more_vert_black_24dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
